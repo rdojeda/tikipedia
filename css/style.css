@@ -1,0 +1,227 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Styles Custom*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+html { 
+    background: url("/img/torre-vengadores.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+/*Estructura*/
+header, main, footer{
+    margin: 0.5rem;
+   
+}
+
+/*Cajas - Posicionamiento*/
+.logo, .navbar, .content {
+    box-sizing: border-box;
+    color: #444;
+    display: inline-block;
+    margin: 0.5%;
+    padding: 0.5%;
+    vertical-align: top;
+    
+}
+
+.logo, .navbar {
+    width: 25.20%;
+}
+
+.content {
+    width: 50%;
+}
+
+
+footer {
+    width: 45%;
+    margin-top: 8rem;
+}
+
+
+
+/*Estilizaciones*/
+footer p {
+    padding: 0.5rem;
+    color: #000;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);
+
+}
+
+.content p {
+    color: white;
+    line-height: 1.75rem;
+    text-justify: distribute;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+    padding-top: 1rem;
+}
+
+.content {
+      background-color: rgba(0, 0, 0, .6);
+      border-radius: 12px;
+      padding: 1rem;
+
+}
+  
+.content a {
+      color: white;
+}
+
+.content h2 {
+    background-color: slateblue;
+    padding: 1rem;
+    color: white;
+    font-size: 2rem;
+
+}
+.content ul {
+    margin: 1.5rem;
+}
+
+.content ul li {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+    padding: 0.15rem;
+    list-style-image: url("/img/bullet.png");
+}
+
+section a:link{
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.content a.iron-man-color:hover h1{
+	background-color: #D73427;
+    color: #EFE98A;
+    font-weight: bold;
+}
+
+.content a.thor-color:hover h1 {
+	background-color:#5B97CC;
+    color: #17181A;
+    font-weight: bold;
+}
+.content a.the-wasp-color:hover h1 {
+	background-color: #64675F;
+    color: #FCC15C;
+    font-weight: bold;
+}
+.content a.ant-man-color:hover h1 {
+	background-color: #A82431;
+    color:#6F8289;
+    font-weight: bold;
+}
+.content a.hulk-color:hover h1 {
+	background-color:#88AA53;
+    color:#7B6A9F;
+    font-weight: bold;
+}
+.content a.capitan-america-color:hover h1 {
+	background-color:#38759F;
+    color:#922820;
+    font-weight: bold;
+}
+
+.content a.avengers-color:hover h1 {
+	background-color: white;
+    color: black;
+    font-weight: bold;
+}
+/*Navegación*/
+.navbar ul{
+    width: 300px;
+    height: auto;
+    background-color: #2f4f4f;
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar li {
+    box-sizing: border-box;
+    display: block;
+    width: 300px;
+    height: auto;
+    border-bottom: 2px solid #fff;
+    color: #fffafa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+    transition: all .9s ease;
+    
+    
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li:hover {
+    background: #ff4500;
+    width: 266px;
+}
+
