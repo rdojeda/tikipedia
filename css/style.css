@@ -151,12 +151,14 @@ h1{
     
 }
 
+.content a.red {
+    color: red;
+}
 .content a.iron-man-color:hover h1{
 	background-color: #D73427;
     color: #EFE98A;
     font-weight: bold;
 }
-
 .content a.thor-color:hover h1 {
 	background-color:#5B97CC;
     color: #17181A;
@@ -188,6 +190,39 @@ h1{
     color: black;
     font-weight: bold;
 }
+
+.content p a.iron:hover{
+    background-color: #D73427;
+    color: #EFE98A;
+    font-weight: bold;
+}
+.content p a.thor:hover {
+    background-color:#5B97CC;
+    color: #17181A;
+    font-weight: bold;
+}
+.content p a.avispa:hover {
+    background-color: #64675F;
+    color: #FCC15C;
+    font-weight: bold;
+}
+.content p a.antMan:hover {
+    background-color: #A82431;
+    color:#6F8289;
+    font-weight: bold;
+}
+.content p a.hulk:hover {
+    background-color:#88AA53;
+    color:#7B6A9F;
+    font-weight: bold;
+}
+.content p a.capi:hover {
+    background-color:#38759F;
+    color:#922820;
+    font-weight: bold;
+}
+
+
 /*Navegación*/
 .navbar ul{
     width: 300px;
